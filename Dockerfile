@@ -1,4 +1,4 @@
-FROM php:8.3-cli
+FROM php:8.4.6-cli-alpine3.21
 
 RUN apt-get update && apt-get upgrade -y
 RUN true \
